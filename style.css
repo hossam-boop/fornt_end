@@ -1,0 +1,417 @@
+ *{
+   padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+ }
+ .home{
+    background-size: 100% 100%;
+    
+    height: 100vh;
+      background-image: url(images/drew-coffman-1872.jpg);
+      overflow: auto; 
+}
+
+.homeContnt{
+   width: 50%;
+   margin: auto;
+   text-align: center;
+   margin-top:80px ;
+}
+
+.homeContnt button{
+    padding: 20px 30px;
+    color:white;
+    font-family: "Alegreya Sans";
+    font-size: 20px; 
+    border-radius: 5px;
+    margin: 40px 10px;
+}
+
+.button1{
+    background-color: #8e7754;
+    border: none;   
+}
+.button2{
+   
+    background-color: transparent;
+    border-color: white;
+}
+
+.homeContnt h2{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.pra{
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.titleColor{
+    font-size: 80px;
+    font-weight: 400;
+    font-family: "Alegreya" ;
+}
+
+.homeContnt h2,.titleColor p {
+    margin: 20px 0px;
+}
+
+
+.MasterBuildersPhoto{
+    width: 50%;
+    float: left;
+}
+
+.MasterBuildersPhoto{
+    margin: auto;
+   text-align: center;
+   margin-top:100px ;    
+}
+
+.MasterBuildersPhoto img{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.MasterBuildersText{
+    width: 50%;
+    float: left;
+    margin: auto;
+    margin-top:100px ;
+}
+
+.photoList img{
+    width: 5%;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+
+.MasterBuildersText ul{
+    list-style-type: none;
+}
+
+.MasterBuildersText h1{
+    font-family: "Alegreya";
+    color: #303030;
+    line-height: 1.38em;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    margin-bottom: 25px;
+}
+
+.MasterBuildersText p ,ul {
+    line-height: 1.86em;
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+}
+
+.clr{
+    clear:both;
+}
+
+.Location{
+    background-color: #f8f8f8;
+    margin-top: 80px;
+    height: 90vh;
+
+}
+
+.LocationtText{
+    width: 40%;
+    float: left;
+    margin: auto;
+    margin-top:100px ;
+    padding:20px 80px ;
+}
+
+.LocationtPhoto{
+    width: 40%;
+    float: right;
+    margin: auto;
+    margin-top:100px ;
+}
+
+.LocationPhoto img{
+    width:38% ;
+    margin-top:100px ;
+}
+
+.LocationtText h2,p{
+    padding: 10px 0px;
+
+}
+
+.LocationtText p{
+    line-height: 1.86em;
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+}
+
+.Baking{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.Baking h1 {
+    text-align: center;
+}
+
+.Baking p{
+    line-height: 1.86em;
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+    text-align: center;
+}
+
+.B1{
+    width:33% ;
+    float: left;
+}
+
+.B2{
+    width:33% ;
+    float: left;
+}
+
+.B3{
+    width:33% ;
+    float: left;
+}
+
+.Baking img{
+    width: 85%;
+
+}
+
+.headerLogo{    
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+
+.headerList {
+    text-align: center;    
+    width: 60%;
+    float: left;
+}
+
+.headerLogo img{
+    width: 55%;
+}
+
+.listItem{
+    list-style-type: none;
+    float: left;
+    color: white;
+    width: 10%;
+    padding: 30px 0px;
+    margin-left: 40px;
+    font-size: large;
+
+}
+
+.Contact{
+    height: 110vh;
+    background-color: #f8f8f8;
+    margin-top:100px;
+}
+
+.ContactText{
+    width: 40%;
+    float: left;
+    margin-top: 30px;
+    padding:40px 80px ;
+
+}
+
+.ContactMap{
+    width: 40%;
+    float: left;
+    text-align: center;
+    
+}
+
+.ContactText img{
+    width: 5%;
+    border-radius: 100%;
+}
+
+.ContactMap iframe{
+    margin: 50px 0px;
+    width: 80%;
+
+}
+
+.ContactText h1 .ContactText p .ContactText ul{
+    margin-right: 30px;
+    padding:10px 40px ;
+    margin-top: 30px;
+}
+
+.ContactText ul{
+    list-style-type: none;
+}
+
+.ContactText p,ul {
+    
+    line-height: 1.86em;
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+    
+}
+
+.information{
+    background-color: #403d38;
+    height: 70vh;
+    margin-top: 10px;
+}
+
+.information1 ,.information2,.information3,.information4{
+    width: 22%;
+    float: left;
+    margin-top: 50px;
+    padding: 10px 15px;
+}
+
+.information h3{
+    padding: 20px;
+    color: aliceblue;
+}
+
+.information2 ul,.information3 ul{
+    list-style-type: none;
+    border-bottom: #8e7754;
+
+    
+}
+
+.information2 img,.information3 img{
+    width: 5%;
+}
+
+.information4 ul{
+    list-style-type: none;
+}
+
+.information p {    
+    font-family: "Alegreya Sans";
+    color: #686868;
+}
+
+.information4 img {
+    width: 30px;
+    border-radius: 100%;
+
+}
+
+.information4 {
+    background-image: url(images/contact-details-map.png);
+    
+    background-size: 100% 100%;
+    overflow: auto ;
+}
+
+.end{
+    background-color: #353330;
+    text-align: center;
+    height: 50vh;
+    padding: 20px 0px;
+}
+
+.end img{
+    padding: 20px 0px;
+    width: 30px;
+    display: inline-block;
+}
+
+.iconEnd{
+    width: 30% !important;
+}
+
+.end p{
+    font-family: "Alegreya Sans";
+    color: #797979;
+}
+
+.information2 li ,.information3 li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 3px 0px;
+}
+
+
+@media screen and (max-width:600px){
+    .B1{
+        width:100%;
+       
+    }
+    .B2{
+        width:100%;
+       
+    }
+    .B3{
+        width:100%;
+       
+    }
+
+}
+
+@media screen and (min-width:601px) and (max-width:768px){
+    .B1{
+        width:50%;
+       
+    }
+    .B2{
+        width:50%;
+       
+    }
+    .B3{
+        width:50%;
+       
+    }
+
+}
+
+@media screen and (min-width:769) and (max-width:992px){
+    .B1{
+        width:33.3%;
+       
+    }
+    .B2{
+        width:33.3%;
+       
+    }
+    .B3{
+        width:33.3%;
+       
+    }
+
+}
+
+@media screen and (min-width:993px) and (max-width:1200px){
+    .B1{
+        width:25%;
+       
+    }
+    .B2{
+        width:25%;
+       
+    }
+    .B3{
+        width:25%;
+       
+    }
+
+}
+
